@@ -1,0 +1,28 @@
+.pf-header {
+    background-color: #f8f9fa;
+    margin: 0px 50px;
+    .navbar{
+        padding: 15px 0;
+    }
+}
+.app-header{
+    background-color: lightgray;
+}
+.pf-custom-nav{
+    position: absolute;
+    right: 100px;
+    .nav-item{
+        a{
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #222222;
+            margin: 0 25px;
+            display: inline-block;
+        }
+    }
+}
+.nav-toggle-btn{
+    margin-left: auto;
+    cursor: pointer;
+}
